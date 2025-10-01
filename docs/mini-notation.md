@@ -145,6 +145,8 @@ Cycle through patterns:
 ```
 
 ### Conditional Patterns
+
+The probability syntax uses the `?` operator to specify the chance that an event will be triggered. For example, `bd?0.8` means the "bd" event will play with an 80% probability (i.e., 0.8 out of 1), while `sd?0.3` means the "sd" event will play with a 30% probability. Probability values must be between 0 (never triggers) and 1 (always triggers). This allows you to introduce randomness and variation into your patterns.
 ```javascript
 // If-then-else style
 "bd?0.8 sd?0.3"  // Probability-based triggering
