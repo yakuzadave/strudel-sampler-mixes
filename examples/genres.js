@@ -59,7 +59,7 @@ stack(
 // JUNGLE/RAGGA
 // Chopped up breakbeat with ragga flavor
 stack(
-  s("amen").slice(8).rev().sometimes(x => x.fast(2)), // Chopped amen
+  s("amen").slice(8).rev().sometimes(x => x.fast(2)), // Chopped amen (the "Amen break" is a classic drum sample from The Winstons, widely used in jungle and breakbeat music)
   s("bass").note("c1 f1 g1 a#1").lpf(300).room(0.2),  // Wobbling bass
   s("vocal*<1 2>").speed("<1 0.5>").delay(0.3),       // Ragga vocals
   s("cymbal ~ ~ ~").gain(0.6).every(4)                // Cymbal accents
