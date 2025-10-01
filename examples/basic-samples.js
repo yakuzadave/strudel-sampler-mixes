@@ -33,6 +33,6 @@ s("bd*3 sd*2 hh*5").fast(1);
 s("bd ~ [sd cp] ~").sometimes(x => x.fast(2));
 
 // 10. Creating breaks and fills
-s("bd sd hh cp")
-  .every(4, x => x.fast(2))
+s("bd sd hh cp");
+  .every(4, x => x.fast(2));
   .every(8, x => x.rev());
