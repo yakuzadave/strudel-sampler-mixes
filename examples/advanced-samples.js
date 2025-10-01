@@ -13,6 +13,8 @@ s("bd(3,8) sd(2,8) hh(5,8)").fast(2);
 s("breaks165").slice(8).slow(2);
 
 // 4. Granular synthesis effects
+// Granular synthesis splits audio into small pieces ("grains") and rearranges or processes them for creative effects.
+// The .grain(0.1) method sets the grain size to 0.1 seconds, creating a chopped, textured sound.
 s("vocal").grain(0.1).speed(0.5);
 
 // 5. Dynamic pattern switching
